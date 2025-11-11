@@ -17,7 +17,6 @@ fi
 
 if [ -z "$password" ]; then
   echo "No password provided." >&2
-  usage
   exit 2
 fi
 
